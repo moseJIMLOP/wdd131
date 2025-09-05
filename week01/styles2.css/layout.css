@@ -15,7 +15,7 @@ header {
 }
 
 header h1 {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0;
 }
 
 nav ul {
@@ -26,7 +26,7 @@ nav ul {
 }
 
 nav li {
-    margin: 0 2rem;
+    margin: 0 3rem;
 }
 
 nav a {
@@ -37,7 +37,8 @@ nav a {
 
 main {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    min-height: 300px;
 }
 
 .content {
