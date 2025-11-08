@@ -34,7 +34,7 @@ nav.open {
     border: none;
     cursor: pointer;
 }
-#menuButtom.open::before {
+#menuButton.open::before {
     content: "✖";
 }
 nav a {
