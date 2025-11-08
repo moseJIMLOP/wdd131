@@ -25,3 +25,20 @@
         padding: 1.5rem;
     }
 }
+@media scren and (min-width: 640px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        background-color: transparent;
+        position: static;
+        padding: 0;
+    }
+    #menuButton {
+        display: none;
+    }
+    header {
+        justify-content: space-between;
+        align-items: center;
+    }
+}

@@ -18,6 +18,25 @@ header {
 header h1 {
     font-size: 1.3rem;
 }
+nav {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgb(237, 180, 244);
+    padding: 1rem;
+}
+nav.open {
+    display: flex;
+}
+#menuButton {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#menuButtom.open::before {
+    content: "✖";
+}
 nav a {
     color: rgb(28, 4, 36);
     text-decoration: none;
