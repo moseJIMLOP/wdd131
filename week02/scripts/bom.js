@@ -8,9 +8,9 @@ button.addEventListener('click', () => {
         const li = document.createElement('li');
         const deleteButton = document.createElement('button');
 
-        deleteButton.textContent = '✖️';
-        deleteButton.addEventListener('click', () => {
-            li.remove();
+        deleteButton.addEventListener('click', function () {
+        list.removeChild(li);
+        input.focus();
         });
 
         li.textContent = input.value + " ";
