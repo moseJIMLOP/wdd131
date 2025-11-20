@@ -1,20 +1,14 @@
 @media (max-width: 700px) {
     .feature-list {
         flex-direction: column;
-    }
-    .feature-list {
-        flex-direction: column;
+        bottom: 1rem;
     }
     .feature-item {
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
+        width: 90%;
     }
-    .hero {
-        height: 40vh;
-    }
-    .intro h1 {
-        font-size: 1.8rem;
-    }
-    .intro p {
-        font-size: 1rem;
+    .hero-bar {
+        font-size: 1.3rem;
+        padding: 0.8rem 1rem;
     }
 }

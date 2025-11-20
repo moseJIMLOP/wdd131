@@ -1,4 +1,6 @@
 
+document.addEventListener("DOMContentLoaded", () => {
+
 document.getElementById("year").textContent = new Date().getFullYear();
 document.getElementById("lastModified").textContent = document.lastModified;
 
@@ -19,3 +21,4 @@ document.getElementById("temp").textContent = temperature;
 document.getElementById("wind").textContent = windSpeed;
 document.getElementById("conditions").textContent = condition;
 document.getElementById("chill").textContent = windChillText;
+});
