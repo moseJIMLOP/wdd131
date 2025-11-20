@@ -10,3 +10,10 @@
     margin: 0 auto;
   }
 }
+
+@media (max-width: 700px) {
+  .hero-bar {
+    font-size: 1.3rem;
+    padding: 0.8rem 1rem;
+  }
+}
