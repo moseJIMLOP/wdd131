@@ -11,54 +11,58 @@
 <body>
     <header>
         <div class="hero">
-  <picture>
-   
-    <source media="(min-width: 1000px)" srcset="images/hero-large2.webp">
-    <source media="(min-width: 500px)" srcset="images/hero-medium2">
-    
-    <img src="images/hero-small2.webp" alt="Oaxaca Mexico" width="1500" height="750">
-  </picture>
-</div>
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/hero-large2.webp">
+                <source media="(min-width: 500px)" srcset="images/hero-medium2.webp">
+                <img src="images/hero-small2.webp" alt="Oaxaca Mexico" width="1500" height="750">
+            </picture>
+        </div>
     </header>
+
     <main>
+
         <section>
             <h1>Oaxaca Mexico</h1>
-            <p>Data<p>
+            <p>Data</p>
         </section>
-        
+
         <section class="features">
-            <h2>Data</Data></h2>
+            <h2>Data</h2>
+
             <div class="feature-list">
+
                 <div class="feature-item">
-                    <h3>Data</h3>
+                    <h3>Información</h3>
                     <p>
-                        Area: 
-                        Populacion:
-                        Capital:
-                        Languages:
-                        Currency:
-                        Time Zone:
-                        Calling Code:
-                        Internet TLD:
+                        Area: <span id="area"></span><br>
+                        Población: <span id="population"></span><br>
+                        Capital: <span id="capital"></span><br>
+                        Languages: <span id="languages"></span><br>
+                        Currency: <span id="currency"></span><br>
+                        Time Zone: <span id="timezone"></span><br>
+                        Calling Code: <span id="calling"></span><br>
+                        Internet TLD: <span id="tld"></span>
                     </p>
                 </div>
+
                 <div class="feature-item">
-                    <h3>weather</h3>
+                    <h3>Weather</h3>
                     <p>
-                        Temperatura:
-                        Conditions:
-                        Wind:
-                        Wind Chill:
+                        Temperature: <span id="temp"></span> °C<br>
+                        Conditions: <span id="conditions"></span><br>
+                        Wind: <span id="wind"></span> km/h<br>
+                        Wind Chill: <span id="chill"></span>
                     </p>
                 </div>
+
             </div>
         </section>
     </main>
 
-    </main>
-
     <footer>
-        <p>&copy 2025 🐭 Moseley Jimenez 🐭 Oaxaca Mexico</p>
+        <p>&copy; 2025 🐭 Moseley Jimenez 🐭 Oaxaca Mexico</p>
+        <p>Current year: <span id="year"></span></p>
+        <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
 </body>
 </html>
