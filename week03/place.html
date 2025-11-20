@@ -10,17 +10,19 @@
 </head>
 <body>
     <header>
-    <div class="hero">
-        <picture>
-            <source media="(min-width: 1000px)" srcset="images/hero-large2.webp">
-            <source media="(min-width: 500px)" srcset="images/hero-medium2.webp">
-            <img src="images/hero-small2.webp" alt="Oaxaca Mexico" width="1500" height="750">
-        </picture>
-        
-        <div class="hero-bar">
-            <h1>Oaxaca, Mexico</h1>
-        </div>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/hero-large2.webp">
+                <source media="(min-width: 500px)" srcset="images/hero-medium2.webp">
+                <img src="images/hero-small2.webp" alt="Oaxaca Mexico" width="1500" height="750">
+            </picture>
 
+            <div class="hero-bar">
+                <h1>Oaxaca, Mexico</h1>
+            </div>
+    </header>
+
+    <main>
         <div class="feature-list">
             <div class="feature-item">
                 <h3>Información</h3>
@@ -38,16 +40,14 @@
 
             <div class="feature-item weather">
                 <h3>Weather</h3>
-                <p>
-                    Temperature: <span id="temp"></span> °C<br>
+                <p>                        Temperature: <span id="temp"></span> °C<br>
                     Conditions: <span id="conditions"></span><br>
                     Wind: <span id="wind"></span> km/h<br>
                     Wind Chill: <span id="chill"></span>
                 </p>
             </div>
         </div>
-    </div>
-</header>
+    </header>
 
 <footer>
     <p>&copy; <span id="year"></span> 🏵️ Moseley Jimenez 🏵️ Oaxaca Mexico</p>

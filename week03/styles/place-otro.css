@@ -1,19 +1,19 @@
 @media (max-width: 900px) {
-  .feature-list {
-    flex-direction: column;
-    top: 50%; 
-    transform: translate(-50%, -50%);
+    .feature-list {
+        flex-direction: column;
+        top: 50%; 
+        transform: translate(-50%, -50%);
   }
 
-  .feature-item {
-    width: 90%;
-    margin: 0 auto;
+    .feature-item {
+        width: 90%;
+        margin: 0 auto;
   }
 }
 
 @media (max-width: 700px) {
-  .hero-bar {
-    font-size: 1.3rem;
-    padding: 0.8rem 1rem;
+    .hero-bar {
+        font-size: 1.3rem;
+        padding: 0.8rem 1rem;
   }
 }

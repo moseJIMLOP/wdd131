@@ -10,16 +10,25 @@
     padding: 0;
 }
 
-body {
+html, body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
     color: #333;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;
 }
 
 .hero {
     position: relative;
     width: 100%;
-    height: 80vh; 
+    height: 100vh; 
     overflow: hidden;
 }
 
@@ -46,25 +55,19 @@ body {
 }
 
 .feature-list {
-    position: absolute;
-    top: 38%; 
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
-    z-index: 5;
 }
 
 .feature-item {
-    background-color: white;
+    background-color: rgba(255,255,255,0.95);
     padding: 1.5rem;
     border-radius: 12px;
     min-width: 250px;
     max-width: 350px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-    color: #333;
 }
 
 .feature-item.weather h3::before {
