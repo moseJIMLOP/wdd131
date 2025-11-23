@@ -3,7 +3,7 @@ const today = new Date();
 if (currentYear) currentYear.textContent = today.getFullYear();
 
 const lastModified = document.querySelector('#lastModified');
-if (lastModified) lastModified.textContent = "Last Modified: ${document.lastModified}";
+if (lastModified) lastModified.textContent = `Last Modified: ${document.lastModified}`;
 
 const menuButton = document.querySelector('#menuButton');
 const nav = document.querySelector('nav');
@@ -104,7 +104,7 @@ function displayTemples(list) {
     list.forEach(temple => {
         const figure = document.createElement('figure');
         figure.innerHTML = `
-         <img scr="${temple.imagenUrl}"
+         <img src="${temple.imageUrl}"
             alt="Image of ${temple.templeName}"
             loading="lazy">
         <figcaption>
@@ -121,7 +121,7 @@ function displayTemples(list) {
 function filterAndDisplay(filterName) {
     let result = temples.slice();
     if (filterName === 'Old') {
-        result = temples.filter(t => parseInt(t.decdicated) < 1900);
+        result = temples.filter(t => parseInt(t.dedicated) < 1900);
     } else if (filterName === 'New') { 
         result = temples.filter(t => parseInt(t.dedicated) >= 2000);
     } else if (filterName === 'Large') {
@@ -137,14 +137,15 @@ menuLinks.forEach(link => {
     link.addEventListener('click', (e) => {
         e.preventDefault();
         const filter = link.textContent;
-        filterAndDisplay(text);
+        filterAndDisplay(filter);
+        mainTitle.textContent = filter;
         
         if (nav && nav.classList.contains('open')) {
             nav.classList.remove('open');
             if (menuButton) menuButton.classList.remove('open');
         }
         const mainTitle = document.querySelector('main h1');
-        if (mainTitle) mainTitle.textContent = text;
+        if (mainTitle) mainTitle.textContent = filter;
     });
 });
 displayTemples(temples);
