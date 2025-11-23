@@ -5,6 +5,9 @@ if (currentYear) currentYear.textContent = today.getFullYear();
 const lastModified = document.querySelector('#lastModified');
 if (lastModified) lastModified.textContent = `Last Modified: ${document.lastModified}`;
 
+const mainTitle = document.querySelector('main h1');
+if (mainTitle) mainTitle.textContent = text;      
+
 const menuButton = document.querySelector('#menuButton');
 const nav = document.querySelector('nav');
 
@@ -144,8 +147,6 @@ menuLinks.forEach(link => {
             nav.classList.remove('open');
             if (menuButton) menuButton.classList.remove('open');
         }
-        const mainTitle = document.querySelector('main h1');
-        if (mainTitle) mainTitle.textContent = filter;
     });
 });
 displayTemples(temples);
