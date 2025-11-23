@@ -1,0 +1,42 @@
+@media screen and (min-width: 640px) {
+     
+    header {
+        padding: 1.5rem 3rem;
+    }
+    header h1 {
+        font-size: 1.8rem;
+    }
+    nav a {
+        font-size: 1.2rem;
+        margin-left: 2rem;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .gallery img {
+        width: 100%;
+    }
+    footer {
+        padding: 1.5rem;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        background-color: transparent;
+        position: static;
+        padding: 0;
+    }
+    #menuButton {
+        display: none;
+    }
+    header {
+        justify-content: space-between;
+        align-items: center;
+    }
+}
