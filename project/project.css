@@ -26,3 +26,23 @@ header {
 p,li {
     line-height: 1.6;
 }
+.color-row {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.color-box {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.pink {
+    background-color: #1D0713
+}
+
+.vine {
+    background-color: #F3CEE2;
+}
