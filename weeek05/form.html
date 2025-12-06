@@ -14,7 +14,7 @@
         <form method="get" action="review.html">
             <label for="product">Product Name:</label>
             <select id="product" name="product" required>
-                <option value="">Select a rating</option>
+                <option value="" disabled selected>Choose a Product...</option>
             </select>
 
             <fieldset>
@@ -42,16 +42,16 @@
             <fieldset>
                 <legend>Wich features did you find useful in the product?:</legend>
 
-                <input type="checkbox" id="features1" name="features" value="Durability">
+                <input type="checkbox" id="feature1" name="features" value="Durability">
                 <label for="feature1">Durability</label>
 
-                <input type="checkbox" id="features2" name="features" value="Ease of use">
+                <input type="checkbox" id="feature2" name="features" value="Ease of use">
                 <label for="feature2">Ease of use</label>
 
-                <input type="checkbox" id="features3" name="features" value="Performance">
+                <input type="checkbox" id="feature3" name="features" value="Performance">
                 <label for="feature3">Performance</label>
 
-                <input type="checkbox" id="features4" name="features" value="Design">
+                <input type="checkbox" id="feature4" name="features" value="Design">
                 <label for="feature4">Design</label>
             </fieldset>
 
@@ -69,5 +69,7 @@
         <p>&copy; <span id="year"></span> 🫰 Moseley Jimenez 🫰</p>
         <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
+    <script src="scripts/form.js"></script>
+    <script src="scripts/product.js"></script>
 </body>
 </html>
