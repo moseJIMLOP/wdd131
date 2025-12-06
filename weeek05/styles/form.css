@@ -66,3 +66,29 @@ fieldset label {
     font-weight: normal;
 }
 
+input[type="submit"] {
+    width: 100%;
+    background-color: #eb6207;
+    border: 2px solid #e86507e2;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #d04e06;
+}
+
+footer {
+    background-color: #eb6207;
+    color: white;
+    text-align: center;
+    padding: 20px 10;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+footer p {
+    margin: 5px 0;
+}
