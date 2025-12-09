@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+    nav ul{
+        gap: 2rem;
+    }
+
+    .drama-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .drama-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
