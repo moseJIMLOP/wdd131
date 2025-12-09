@@ -1,27 +1,27 @@
 const dramas = [
     {
         title: "Do You Like Brahms?",
-        genre: "Romance, Music",
+        genre: ["Romance, Music"],
         image: "images/do-you-like-brahms.webp",
     },
     {
         title: "Fairy Kim Bok Joo",
-        genre: "Romance, Sports",
+        genre: ["Romance, Sports"],
         image: "images/fairy-kim-bok-joo.webp",
     },
     {
         title: "It's Okay to Not Be Okay",      
-        genre: "Romance, Drama",
+        genre: ["Romance, Drama"],
         image: "images/its-okay-to-not-be-okay.webp",
     },
     {
         title: "Lovely Runner",
-        genre: "Romance, Sports",
+        genre: ["Romance, Sports"],
         image: "images/lovely-runner.webp",
     },
     {
-        tilte: "she Was Pretty",
-        genre: "Romance, Comedy",
+        title: "she Was Pretty",
+        genre: ["Romance, Comedy"],
         image: "images/she-was-pretty.webp",
     },
 ];
@@ -38,4 +38,4 @@ dramas.forEach((drama) => {
 });
 
 document.getElementById("year").textContent = new Date().getFullYear();
-document.getElementById("LastModified").textContent = document.lastModified;
+document.getElementById("lastModified").textContent = document.lastModified;
