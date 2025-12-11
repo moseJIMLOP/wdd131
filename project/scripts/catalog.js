@@ -20,7 +20,7 @@ const dramas = [
     {
         title: "It's Okay to Not Be Okay",      
         genre: ["Romance", "Drama"],    
-        image: "images/Its-Okay-Not-Be-okay.webp",
+        image: "images/Its-Okay-Not-be-okay.webp",
         year: 2020,
         actors: ["Kim Soo-hyun", "Seo Ye-ji"],
         rating: "9.3",
