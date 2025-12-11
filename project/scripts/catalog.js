@@ -2,7 +2,7 @@ const dramas = [
     {
         title: "Do You Like Brahms?",
         genre: ["Romance", "Music"],
-        image: "images/do-you-like-brahms.webp",
+        image: "images/Do_You_Like_Brahms_.webp",
         year: 2020,
         actors: ["Park Eun-bin", "Kim Min-jae"],
         rating: "9.1",
@@ -11,7 +11,7 @@ const dramas = [
     {
         title: "Fairy Kim Bok Joo",
         genre: ["Romance", "Sports"],
-        image: "images/fairy-kim-bok-joo.webp", 
+        image: "images/Fairy-Kim.webp", 
         year: 2016,
         actors: ["Lee Sung-kyung", "Nam Joo-hyuk"],
         rating: "9.4",
@@ -20,7 +20,7 @@ const dramas = [
     {
         title: "It's Okay to Not Be Okay",      
         genre: ["Romance", "Drama"],    
-        image: "images/its-okay-to-not-be-okay.webp",
+        image: "images/Its-Okay-Not-Be-okay.webp",
         year: 2020,
         actors: ["Kim Soo-hyun", "Seo Ye-ji"],
         rating: "9.3",
