@@ -3,56 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My K-Opinion UwU</title>
     <link rel="stylesheet" href="styles/project.css">
 </head>
 
 <body>
     <header>
         <h1>My K-Opinion UwU</h1>
-        <nav>
+
+        <nav aria-label="Main Navigation">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" aria-current="page">Home</a></li>
                 <li><a href="catalog.html">Catalog</a></li>
-                <li><a href="contact.html">contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <section id="popular-dramas">
-            <h3>Popular K-Dramas</h3>
-            <div class="drama-card">
-                <img src="images/Do_You_Like_Brahms_.webp" alt="Do You Like Brahms?" loading="lazy">
-                <h4>Do You Like Brahms?</h4>
-                <p>Gender: Romance, Drama</p>
-            </div>
-            <div class="drama-card">
-                <img src="images/Fairy-kim.webp" alt="Fairy Kim Bok-joo" loading="lazy">
-                <h4>Fairy Kim Bok-joo</h4>
-                <p>Gender: Romance, Coming-of-age</p>
-            </div>
-            <div class="drama-card">
-                <img src="images/Its-Okay-Not-be-okay.webp" alt="It's Okay to Not Be Okay" loading="lazy">
-                <h4>It's Okay to Not Be Okay</h4>
-                <p>Gender: Romance, Drama, Psychological</p>
-            </div>
-            <div class="drama-card">
-                <img src="images/lovely-runner.webp" alt="Lovely Runner" loading="lazy" loading="lazy">
-                <h4>Lovely Runner</h4>
-                <p>Gender: Romance, Sports</p>
-            </div>
-            <div class="drama-card">
-                <img src="images/she-was-pretty.webp" alt="She Was Pretty" loading="lazy">
-                <h4>She Was Pretty</h4>
-                <p>Gender: Romance, Comedy</p>
+        <section id="popular-dramas" class="drama-section">
+            <h2>Popular K-Dramas</h2>
+
+            <div class="drama-container">
+
+                <div class="drama-card">
+                    <img src="images/Do_You_Like_Brahms_.webp" 
+                         alt="Poster of Do You Like Brahms?" 
+                         loading="lazy" width="250" height="350">
+                    <h3>Do You Like Brahms?</h3>
+                    <p>Genre: Romance, Drama</p>
+                </div>
+
+                <div class="drama-card">
+                    <img src="images/Fairy-kim.webp" 
+                         alt="Poster of Fairy Kim Bok-joo" 
+                         loading="lazy" width="250" height="350">
+                    <h3>Fairy Kim Bok-joo</h3>
+                    <p>Genre: Romance, Coming-of-age</p>
+                </div>
+
+                <div class="drama-card">
+                    <img src="images/Its-Okay-Not-be-okay.webp" 
+                         alt="Poster of It's Okay to Not Be Okay" 
+                         loading="lazy" width="250" height="350">
+                    <h3>It's Okay to Not Be Okay</h3>
+                    <p>Genre: Romance, Drama, Psychological</p>
+                </div>
+
+                <div class="drama-card">
+                    <img src="images/lovely-runner.webp" 
+                         alt="Poster of Lovely Runner"
+                         loading="lazy" width="250" height="350">
+                    <h3>Lovely Runner</h3>
+                    <p>Genre: Romance, Sports</p>
+                </div>
+
+                <div class="drama-card">
+                    <img src="images/she-was-pretty.webp" 
+                         alt="Poster of She Was Pretty"
+                         loading="lazy" width="250" height="350">
+                    <h3>She Was Pretty</h3>
+                    <p>Genre: Romance, Comedy</p>
+                </div>
+
             </div>
         </section>
-    
     </main>
+
     <footer>
         <p>&copy; <span id="year"></span> 😺 Moseley Jimenez 😺</p>
         <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
+
     <script src="scripts/project.js"></script>
 </body>
 </html>
