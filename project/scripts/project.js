@@ -2,17 +2,17 @@ const dramas = [
     {
         title: "Do You Like Brahms?",
         genre: ["Romance", "Music"],
-        image: "images/do-you-like-brahms.webp",
+        image: "images/do_you_like_brahms_.webp",
     },
     {
         title: "Fairy Kim Bok Joo",
         genre: ["Romance", "Sports"],
-        image: "images/fairy-kim-bok-joo.webp",
+        image: "images/fairy-kim.webp",
     },
     {
         title: "It's Okay to Not Be Okay",
         genre: ["Romance", "Drama"],
-        image: "images/its-okay-to-not-be-okay.webp",
+        image: "images/Its-Okay-Not-Be-Okay.webp",
     },
     {
         title: "Lovely Runner",
