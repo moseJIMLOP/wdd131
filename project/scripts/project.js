@@ -7,7 +7,7 @@ const dramas = [
     {
         title: "Fairy Kim Bok Joo",
         genre: ["Romance", "Sports"],
-        image: "images/Fairy-Kim.webp",
+        image: "images/Fairy-kim.webp",
     },
     {
         title: "It's Okay to Not Be Okay",
